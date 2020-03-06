@@ -1,0 +1,11 @@
+#!/bin/bash
+
+expect -c "
+spawn passwd testuser2
+expect \"Enter new UNIX password\"
+send   \"$1\n\"
+expect \"Retype new UNIX password:\"
+send   \"$2\n\"
+expect \"$\"
+exit
+"

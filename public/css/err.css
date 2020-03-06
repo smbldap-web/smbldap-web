@@ -1,0 +1,9 @@
+.gopher-position-center{
+	padding-top: 150px;
+	text-align:center;
+}
+.gopher-position-rightDown{
+	position:absolute; 
+	bottom:0%; 
+	right:0%;
+}
